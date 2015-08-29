@@ -1,13 +1,13 @@
 //
 //  RNCreateNewFileUtil.h
-//  RNCreateNewFileUtil
+//  test1
 //
-//  Created by Ross Beinhaker on 8/29/15.
-//  Copyright (c) 2015 rhaker. All rights reserved.
+//  Created by Ross Haker on 8/28/15.
+//  Copyright (c) 2015 Facebook. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <RCTBridge.h>
 
-@interface RNCreateNewFileUtil : NSObject
+@interface RNCreateNewFileUtil : NSObject <RCTBridgeModule>
 
 @end
