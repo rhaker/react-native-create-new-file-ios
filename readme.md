@@ -8,7 +8,7 @@ npm install react-native-create-new-file-ios --save
 
 In XCode, in the project navigator, right click Libraries ➜ Add Files to [your project's name]
 
-Go to node_modules ➜ react-native-motion-manager and add RNCreateNewFileUtil.xcodeproj
+Go to node_modules ➜ react-native-create-new-file-ios and add RNCreateNewFileUtil.xcodeproj
 
 In XCode, in the project navigator, select your project. Add libRNCreateNewFileUtil.a to your project's Build Phases ➜ Link Binary With Libraries
 
