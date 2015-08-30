@@ -1,6 +1,6 @@
 {
   "name": "react-native-create-new-file-ios",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react-native interface for creating a blank new file on ios. File must not already exist.",
   "main": "index.ios.js",
   "scripts": {
