@@ -18,7 +18,7 @@ Run your project (Cmd+R)
 
 Setup trouble?
 
-If you get stuck, take a look at Brent Vatne's blog. He was gracious enough to help out on this project, and his blog is my go to reference for this stuff.
+If you get stuck, take a look at Brent Vatne's blog. His blog is my go to reference for this stuff.
 
 # Api Setup
 
