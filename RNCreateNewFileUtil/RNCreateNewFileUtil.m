@@ -51,14 +51,8 @@ RCT_EXPORT_METHOD(createFile:(NSString *)fileName
         
     } else {
         
-        NSRange isSpacedRange = [fileName rangeOfString:@"." options:NSCaseInsensitiveSearch];
-        
-        if(isSpacedRange.location != NSNotFound) {
-            
-            // valid extension
-        
-        } else {
-            
+        if(isRange.location == NSNotFound) {
+
             // Show failure message
             NSDictionary *resultsDict = @{
                                           @"success" : @NO,
@@ -95,7 +89,7 @@ RCT_EXPORT_METHOD(createFile:(NSString *)fileName
         
         // Execute the JavaScript failure callback handler
         failureCallback(@[resultsDict]);
-        return; // Halt execution of this function
+        return;
         
     }
     
@@ -122,11 +116,10 @@ RCT_EXPORT_METHOD(createFile:(NSString *)fileName
         
         // Execute the JavaScript failure callback handler
         failureCallback(@[resultsDict]);
-    }
-    // Success - blank file was created
-    else {
         
-        // Write a success return message
+    } else {
+        
+        // Success - blank file was created
         NSDictionary *resultsDict = @{
                                       @"success" : @YES
                                       };
