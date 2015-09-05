@@ -5,9 +5,8 @@
 'use strict';
 
 var React = require('react-native');
-var {
-    RNCreateNewFileUtil
-} = require('NativeModules');
+var { NativeModules } = React;
+var { RNCreateNewFileUtil } = NativeModules;
 
 var {
   AppRegistry,
